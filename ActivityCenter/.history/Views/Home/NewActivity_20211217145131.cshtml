@@ -1,0 +1,46 @@
+@model Actividad
+
+<div style="display: flex; justify-content: space-between;">
+    <h2>Dojo Activity Center</h2>
+    <div>
+        <a asp-controller="Home" asp-action="AllActividades">Dashboard</a> | <form asp-controller="Home" asp-action="Logout"
+            method="POST"><button class="btn btn-link">Logout</button></form>
+    </div>
+</div>
+<form asp-controller="Home" asp-action="NewActivity" method="POST">
+    <div>
+        <label asp-for="ActivityName">Title: </label>
+        <input asp-for="ActivityName" />
+        <span asp-validation-for="ActivityName" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="ActivityDate">Date: </label>
+        <input asp-for="ActivityDate" />
+        <span asp-validation-for="ActivityDate" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="ActivityTime">Time: </label>
+        <input asp-for="ActivityTime" />
+        <span asp-validation-for="ActivityTime" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Duration">Duration: </label>
+        <input asp-for="Duration" />
+        <span asp-validation-for="Duration" class="text-danger"></span>
+    </div>
+    <div>
+        <select asp-for="TimeDuration">
+            <option value="Hours">Hours</option>
+            <option value="Minutes">Minutes</option>
+            <option value="Days">Days</option>
+        </select>
+        <span asp-validation-for="TimeDuration" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Description">Description: </label>
+        <textarea asp-for="Description"></textarea>
+        <span asp-validation-for="Description"  class="text-danger"></span>
+    </div>
+        <input type="submit" value="Create" class="btn btn-primary">
+    </div>
+</form>

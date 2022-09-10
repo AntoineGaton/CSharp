@@ -1,0 +1,63 @@
+@{
+    ViewData["Title"] = "Acitivity Center Page";
+}
+
+@model List<Actividad>
+@using Microsoft.AspNetCore.Http
+
+<body>
+    <div style="display: flex; justify-content: space-between;">
+        <h2>Dojo Activity Center</h2>
+        <div>
+            <a asp-controller="Home" asp-action="AllActividades">Dashboard</a> | <form asp-controller="Home" asp-action="Logout"
+                method="POST"><button class="btn btn-link">Logout</button></form>
+        </div>
+    </div>
+    <div>
+        <table class="table table-dark table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Activity</th>
+                    <th scope="col">Date and Time</th>
+                    <th scope="col">Duration</th>
+                    <th scope="col">Event Coordinator</th>
+                    <th scope="col">No. of Participants</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Actividad a in Model)
+                {
+                    bool alreadyGoing = a.ActiveUser.Any(r => Context.Session.GetInt32("UserId") == r.UserID);
+                    <tr>
+                        <td><a asp-controller="Home" asp-action="ActivityDetails"
+                            asp-route-activityId="@a.ActividadID">@a.ActivityName</a></td>
+                        <td>@a.ActivityDate.ToString("MM/dd yyyy") @a.ActivityTime.ToString("HH:MM tt")</td>
+                        <td>@a.Duration</td>
+                        <td>@a.ActiveUser.Count</td>
+                        <td>
+                            @if (a.UserID == Context.Session.GetInt32("UserID"))
+                            {
+                                <a href="/Activity/Delete/{ActividadID}"class="btn btn-outline-danger btn-link">Delete</a>
+                            }
+                            else
+                            {
+                                    @if (alreadyGoing)
+                                    {
+                                        <a href="/Activity/Join/{ActividadID}"class="btn btn-outline-link">Leave</a>
+                                    }
+                                    else
+                                    {
+                                        <a href="/Activity/Join/{ActividadID}"class="btn btn-outline-link">Join</a>
+                                    }
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <a href="/NewActivity">New Activity</a>
+    </div>
+    </div>
+    </div>
+</body>
