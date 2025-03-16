@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ActivityCenter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34e21611a8330dcccd77c90f199cbc6c961e087f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+717a6f21aaa094fee6e3c3a4f79dc980f174ab98")]
 [assembly: System.Reflection.AssemblyProductAttribute("ActivityCenter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ActivityCenter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
