@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using BCrypt.Net;
 
 namespace PasswordChecker
 {
@@ -22,10 +24,12 @@ namespace PasswordChecker
              * - If the passwords match, display a success message.
             */
             bool isLooping = true;
+            string password = string.Empty;
+
             do
             {
                 Console.Write("Enter a password: ");
-                string password = Console.ReadLine();
+                password = Console.ReadLine();
 
                 if (password.Length >= 8 && password.Any(char.IsUpper) && password.Any(char.IsLower) && password.Any(char.IsDigit) && password.Any(char.IsPunctuation))
                 {
@@ -47,7 +51,10 @@ namespace PasswordChecker
                 }
             } while (isLooping);
 
-            Console.ReadLine();
+           string hashedPassword = BCrypt.Net.BCrypt.HashPassword(password);
+           Console.WriteLine($"Hashed Password: {hashedPassword}");
+
+           Console.ReadLine();
         }
     }
 }
