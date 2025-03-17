@@ -78,7 +78,7 @@ namespace Datatypes
             count *= 4;
             Console.WriteLine($"The value of count after multiplying by 4 is {count}.\n");
 
-            int even = 10%2;
+            int even = 10 % 2;
             int odd = 11 % 2;
             Console.WriteLine($"The value of even is {even} and the value of odd is {odd}.\n");
 
@@ -105,7 +105,7 @@ namespace Datatypes
             string userName = Console.ReadLine();
             Console.WriteLine($"Hello, {userName}! Welcome to the C# programming world.\n");
 
-            Console.ReadLine();            
+            Console.ReadLine();
         }
     }
 }
