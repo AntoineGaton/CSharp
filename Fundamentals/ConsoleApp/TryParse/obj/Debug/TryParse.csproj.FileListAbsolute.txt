@@ -1,0 +1,7 @@
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\TryParse\bin\Debug\TryParse.exe.config
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\TryParse\bin\Debug\TryParse.exe
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\TryParse\bin\Debug\TryParse.pdb
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\TryParse\obj\Debug\TryParse.csproj.AssemblyReference.cache
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\TryParse\obj\Debug\TryParse.csproj.CoreCompileInputs.cache
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\TryParse\obj\Debug\TryParse.exe
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\TryParse\obj\Debug\TryParse.pdb

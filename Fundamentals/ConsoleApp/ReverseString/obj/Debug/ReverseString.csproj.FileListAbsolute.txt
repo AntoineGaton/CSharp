@@ -1,0 +1,7 @@
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\ReverseString\bin\Debug\ReverseString.exe.config
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\ReverseString\bin\Debug\ReverseString.exe
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\ReverseString\bin\Debug\ReverseString.pdb
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\ReverseString\obj\Debug\ReverseString.csproj.AssemblyReference.cache
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\ReverseString\obj\Debug\ReverseString.csproj.CoreCompileInputs.cache
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\ReverseString\obj\Debug\ReverseString.exe
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\ReverseString\obj\Debug\ReverseString.pdb

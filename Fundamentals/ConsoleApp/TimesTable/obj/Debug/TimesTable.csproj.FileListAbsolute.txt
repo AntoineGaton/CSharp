@@ -1,0 +1,7 @@
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\TimesTable\bin\Debug\TimesTable.exe.config
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\TimesTable\bin\Debug\TimesTable.exe
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\TimesTable\bin\Debug\TimesTable.pdb
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\TimesTable\obj\Debug\TimesTable.csproj.AssemblyReference.cache
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\TimesTable\obj\Debug\TimesTable.csproj.CoreCompileInputs.cache
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\TimesTable\obj\Debug\TimesTable.exe
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\TimesTable\obj\Debug\TimesTable.pdb
