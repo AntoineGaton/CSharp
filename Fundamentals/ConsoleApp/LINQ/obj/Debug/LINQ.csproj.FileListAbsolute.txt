@@ -1,0 +1,7 @@
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\LINQ\bin\Debug\LINQ.exe.config
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\LINQ\bin\Debug\LINQ.exe
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\LINQ\bin\Debug\LINQ.pdb
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\LINQ\obj\Debug\LINQ.csproj.AssemblyReference.cache
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\LINQ\obj\Debug\LINQ.exe
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\LINQ\obj\Debug\LINQ.pdb

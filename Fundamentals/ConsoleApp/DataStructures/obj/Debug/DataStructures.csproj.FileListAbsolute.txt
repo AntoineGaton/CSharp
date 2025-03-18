@@ -1,0 +1,7 @@
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\DataStructures\bin\Debug\DataStructures.exe.config
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\DataStructures\bin\Debug\DataStructures.exe
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\DataStructures\bin\Debug\DataStructures.pdb
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\DataStructures\obj\Debug\DataStructures.csproj.AssemblyReference.cache
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\DataStructures\obj\Debug\DataStructures.csproj.CoreCompileInputs.cache
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\DataStructures\obj\Debug\DataStructures.exe
+C:\Users\antoi\OneDrive\Documents\Coding\CSharp\Fundamentals\ConsoleApp\DataStructures\obj\Debug\DataStructures.pdb
